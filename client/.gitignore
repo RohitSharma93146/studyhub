@@ -28,4 +28,6 @@ package.json
 tsconfig.json
 
 assets
-    
+
+.env
+.env.local
