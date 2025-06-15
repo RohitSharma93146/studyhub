@@ -107,7 +107,7 @@ export const purchaseCourse = async (req, res) => {
 }
 
 // update user course progress
-const updateUserCourseProgress = async (req, res) => {
+export const updateUserCourseProgress = async (req, res) => {
     try{
         const userId = req.auth.userId;
         const { courseId, lectureId } = req.body;
@@ -219,6 +219,3 @@ export const addUserRating = async (req, res) => {
         });
     }
 }
-
-
-
